@@ -1,7 +1,9 @@
 node_modules/
-*.js
-lib/
-js/
-css/
-index.html
+src/**/*.js
+server/**/*.js
+test/**/*.js
+/*lib/*/
+/*js/*/
+/*css/*/
+/*index.html*/
 */.DS_Store
