@@ -2,7 +2,6 @@ node_modules/
 src/**/*.js
 server/**/*.js
 test/**/*.js
-/*lib/*/
 /*js/*/
 /*css/*/
 /*index.html*/
