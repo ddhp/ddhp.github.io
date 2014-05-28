@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Application Boilerplate</title>
+
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="{{keywords}}">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <meta name="description" content="{{description}}">
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+
+    <!-- css  -->
+    <link href="{{appCss}}" rel='stylesheet' type="text/css" />
+
+    <!-- lib  -->
+    {{#each libScripts}}
+    <script src="lib/{{this}}" type="text/javascript" charset="utf-8"></script>
+    {{/each}}
+
+    <!-- js  -->
+    <script src="js/{{appScript}}" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+  <!-- livereload of grunt -->
+  {{#unless production}}
+  <script src="//localhost:35729/livereload.js"></script>
+  {{/unless}}
+  <!-- google map api container -->
+  <div id="map_script"></div>
+  </body>
+</html>

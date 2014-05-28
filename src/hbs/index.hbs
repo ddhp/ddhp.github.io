@@ -1,0 +1,34 @@
+{{render "carousel"}}
+
+<div class="container index-container">
+  <div class="row service-wrapper">
+    <h4>Machines we have</h4>
+    {{#each line in lines}}
+    <div class="col-md-4 col-xs-12">
+      <div class="service">
+        <div class="img-container">
+          <div class="img-centerer">
+            <img {{bind-attr src=line.image alt=line.name}} />
+          </div>
+        </div>
+        <h4>{{line.name}}</h4>
+        <p class="featuring">
+          <span class="heading">type</span><br />
+          {{#each type in line.types}}
+          {{type}}<br />
+          {{/each}}
+        </p>
+        <p class="featuring">
+          <span class="heading">option</span><br />
+          {{#each option in line.options}}
+          {{option}}<br />
+          {{/each}}
+        </p>
+        {{#link-to "machine" line.id line.defaultMachine}}
+        <button type="button" class="btn btn-primary">See detail</button>
+        {{/link-to}}
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</div>
