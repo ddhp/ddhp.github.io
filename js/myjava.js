@@ -250,15 +250,25 @@ function getPageContent()
     // })
     // var pageArr = ["pIndex", "pDlink", "pCathay"];
     var pageArr = ["pIndex", "pDlink", "pCathay", "pVote", "pShiDong", "pParas", "pHijack", "pWebworks", "pAbout"];
-    var count = 0
-    pageArr.forEach(function(page){
-      $.get("view/"+page+".html", function(html){
-        pageContentArr.push(html);
-        count++
+    var count = 0;
+    var map = {}
+    pageArr.forEach(function(page, i){
+      cb = function(html, i){
+        map[i] = html;
+        count++;
+      
+        // iterate through map attr to push content to array in expect order
         if(count === pageArr.length){
+          for (var key in map){
+            pageContentArr.push(map[key]);
+          }
+
           setPage();
           setSize();
         }
+      }
+      $.get("view/"+page+".html", function(html){
+        cb(html, i)
       })
     });
 }
