@@ -1,8 +1,0 @@
-node_modules/
-src/**/*.js
-server/**/*.js
-test/**/*.js
-/*js/*/
-/*css/*/
-/*index.html*/
-*/.DS_Store
