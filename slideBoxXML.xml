@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<root>
+    <pic>
+        <title></title>
+        <explain></explain>
+    </pic>
+    <pic>
+        <title>Chic! 時尚貼</title>
+        <explain>以喜愛時尚、愛好時髦的女孩們為主要TA的網站。</explain>
+    </pic>
+    <pic>
+        <title>Hanlin iSchool</title>
+        <explain>線上模擬考單元，以倒數的方式強調出考試的真實感。</explain>
+    </pic>
+    <pic>
+        <title>Hanlin iSchool</title>
+        <explain>線上模擬考單元，風格發想part 2</explain>
+    </pic>
+    <pic>
+        <title>Hanlin iSchool</title>
+        <explain>教科書龍頭翰林，線上教學網站頁面。</explain>
+    </pic>
+    <pic>
+        <title>Talk Style</title>
+        <explain>台大資工所研發團隊委託，為可自定聊天室風格的線上聊天軟體所製作的官方網站。</explain>
+    </pic>
+    <pic>
+        <title>桂格燕麥 麥春聯</title>
+        <explain>龍年新年快樂，可自由輸入文字，或用內建的文字來製作屬於自己的TimeLine風格春聯</explain>
+    </pic>
+    <pic>
+        <title>桂格 戀愛症候群</title>
+        <explain>分析facebook資料，了解你的戀愛症候群。</explain>
+    </pic>
+    <pic>
+        <title>網路測速APP</title>
+        <explain>手機使用QR CODE登入後，即可測出3G網路速度。</explain>
+    </pic>
+    <pic>
+        <title>源訊 Nice to meet you</title>
+        <explain>創建屬於使用者的個人導覽手冊。</explain>
+    </pic>
+    <pic>
+        <title>Ardbeg 泥挑戰了沒</title>
+        <explain>蘇格蘭威士忌品牌 Ardbeg 宣傳用APP，看你能喝下多少泥煤威士忌，測出在Ardbeg Day時你最適合參加的挑戰項目！</explain>
+    </pic>
+    <pic>
+        <title>D-Link 無線攝影比賽</title>
+        <explain>D-Link 的一次企劃案，透過手機，就能操控設置在貓旅館的無線攝影機，參加攝影比賽！</explain>
+    </pic>
+</root>

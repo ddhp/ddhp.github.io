@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="https://opengraph.org/schema/">
+<head>
+    <title>Jesse Chien-Chen Chen &mdash; Taipei, TW</title>	
+    <link rel="shortcut icon" href="images/icon.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="images/logo.ico" />
+    <link rel="image_src" href="http://www.jcexperience.com.tw/images/thumbnail_3.jpg" /> 
+    <!----- include styles ------->
+    <link rel="stylesheet" href="style/reset.css" type="text/css" />
+    <link rel="stylesheet" href="style/master.css" type="text/css" />
+    <link rel="stylesheet" href="style/cathayVoteStyle.css" type="text/css" />
+    
+    <!----- include jQuery ------->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/jquery.masonry.min.js"></script>
+    <script type="text/javascript" src="js/slimScroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.form.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.blockUI.js"></script>-->
+    <!-- <script type="text/javascript" src="js/p_index.js"></script> -->
+    <script type="text/javascript" src="js/myjava.js"></script>
+    <script type="text/javascript" src="js/jquery.backgroundPosition.js"></script>
+</head>
+<body>
+    <div id="mainSection">
+        <div id="pageContainer">
+            <div class="pages prev"></div>
+            <div class="pages current"></div>
+            <div class="pages next"></div>
+        </div>
+    </div>
+    <!--
+    <div id="controlBtns">
+        <div id="left">
+
+        </div>
+
+        <div id="right">
+
+        </div>
+    </div>
+    -->
+    <div id="navBar">
+        <!--<div id="menu"></div>-->
+        <div id="navCursor"></div>
+    </div>
+    <div id="footer">
+        <ul>
+            <li class="socialIcon linkedin"><a href="#" target="_blank">linkedin</a></li>
+            <li class="socialIcon flickr"><a href="#" target="_blank">flickr</a></li>
+            <li class="socialIcon goolePlus"><a href="#" target="_blank">goolePlus</a></li>
+            <li class="socialIcon facebook"><a href="#" target="_blank">facebook</a></li>
+        </ul>
+    </div>
+    <div id="tip">
+        <div id="tipMain">
+            <!--<p>USE ARROW KEYS TO NAVIGATE</p>-->
+            <p>請使用方向鍵瀏覽</p>
+        </div>
+        <div id="tipArrow">
+        </div>
+    </div>
+    <div class="forCoding" id="code1"></div>
+    <div class="forCoding" id="code2"></div>
+    <div class="forCoding" id="code3"></div>
+</body>
+</html>

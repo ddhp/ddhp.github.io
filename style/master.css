@@ -1,0 +1,717 @@
+body {
+	//font-family:'Droid Sans', Helvetica, Arial;
+	font-family:'微軟正黑體', Droid Sans, Helvetica, Arial;
+        width:100%;
+        min-width:960px;
+        height:100%;
+        overflow:hidden;
+}
+img {
+    pointer-events: none; 
+}
+.cAlign {
+    margin:0 auto;
+    position:relative;
+}
+a {
+    text-decoration: none;
+}
+p {
+    letter-spacing: 0.15em;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+/******* Scroll Bar ******/
+
+::-webkit-scrollbar{
+    //width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track{
+    /*
+    //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    //-webkit-border-radius: 10px;
+    //border-radius: 10px;
+    background-color: rgba(256, 256, 256, 0.3);
+    */
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    /*
+    margin: 1px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(256,256,256,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    */
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	//background: rgba(256,256,256,0.4); 
+}
+
+div#mainSection {
+    position: absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+    //height: 100%;
+    //overflow: hidden;
+}
+div#pageContainer {
+    //overflow: hidden;
+    position: absolute;
+    left:0;
+    top:0;
+    height:100%;
+    
+    -webkit-transform: translate3d(0px, 0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -msTransform-transform: translate(0px, 0px);
+}
+div.pages {
+    float:left;
+    left:100%;
+    height:100%;
+    overflow:auto;
+    overflow-x: hidden;
+    
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+div.centerImg {
+    //margin: 0 auto;
+    text-align: center;
+}
+.tryBtn {
+    display: block;
+    margin: 0 auto;
+    width: 136px;
+    height: 136px;
+    border-radius: 68px;
+    cursor: pointer;
+}
+div.tryWord {
+    padding-top: 44px;
+    padding-left: 14px;
+}
+div.tryWord p {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+}
+div.tryWord .eng{
+    letter-spacing: 0.1em;
+}
+div.tryWord .chi{
+    letter-spacing: 0;
+    font-weight: bold;
+}
+div.p_index {
+    //height:100%;
+    overflow:hidden;
+    background-color: black;
+}
+div.p_dlinkescape {
+    background-color: black;
+}
+    div.p_dlinkescape_section1 {
+        height: 720px;
+        background: url("../images/p_dlinkescape_s1.jpg") center top no-repeat;
+    }
+    div.p_dlinkescape_section2 {
+        margin-top: 110px;
+        margin-bottom: 110px;   
+    }
+    div.p_dlinkescape_section2 li {
+        //width: 960px;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    div.p_dlinkescape_section2 .left {
+        float: left;
+    }
+    div.p_dlinkescape_section2 .right {
+        float: left;
+        width:360px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    div.p_dlinkescape_section2 h2{
+        color: #969ca1;
+        font-size: 24px;
+        letter-spacing: 0.05em;
+        line-height: 70px;
+    }
+    div.p_dlinkescape_section2 p{
+        color: #959a9e;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.15em;
+    }
+    div.p_dlinkescape_section3 {
+        margin-bottom: 210px;
+    }
+    div.p_dlinkescape_section3 p{
+        color: #959a9e;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0.15em;
+    }
+    div.p_dlinkescape_section3 .tryBtn {
+        background: #323a3f;
+    } 
+    div.p_dlinkescape_section3 .tryBtn:hover {
+        background-color: #3b4348;
+    }
+    div.p_dlinkescape_section3 div.tryWord p{
+        font-size: 18px;
+    }
+div.p_cathaynamecard {
+    background: url("../images/p_cathaynamecard_bg.jpg") top left repeat;
+}
+    div.p_cathaynamecard_section1 {
+        margin-top: 20px;
+    }
+    div.p_cathaynamecard_section2 {
+        margin-top: 50px;
+    }
+    div.p_cathaynamecard_section3 {
+        background: url("../images/p_webworks_offlineWeb_line.png") center top no-repeat;
+        margin-top:20px;
+        padding-top:75px;
+        margin-bottom: 125px;
+    }
+    div.p_cathaynamecard_section3 .row {
+        margin-left:100px;
+    }
+    div.p_cathaynamecard_section3 h2 {
+        font-size: 24px;
+        color: #838388;
+        text-align: left;
+        line-height: 32px;
+        font-weight: normal;
+        letter-spacing: 0.1em;
+    }
+    div.p_cathaynamecard_section3 li {
+        position: relative;
+        width: 720px;
+        overflow: hidden;
+    }
+    div.p_cathaynamecard_section3 li p {
+        float: right;
+        font-family: "Helvetica Neue";
+        margin-top: -60px;
+        text-align: right;
+        font-size: 30px;
+        letter-spacing: 0;
+        color: #AEAEB3;
+    }
+    div.p_cathaynamecard_section3 .number {
+        font-family: "Helvetica Neue";
+        font-size: 115px;
+        line-height: 125px;
+        letter-spacing: 8px;
+        font-weight: bold;
+        color: white;
+        padding-bottom: 10px;
+        
+        text-shadow: 1px 1px 10px rgba(64, 63, 51, 0.3);
+    }
+    div.p_cathaynamecard_section3 p {
+        text-align: left;
+        color: #838388;
+        font-size: 12px;
+        letter-spacing: 0.1em;
+        margin-bottom: 20px;
+    }
+    div.p_cathaynamecard_section4 {
+        margin-bottom: 210px;
+    }
+    div.p_cathaynamecard_section4 .tryBtn {
+        background-color: #abde3c;
+    }
+    div.p_cathaynamecard_section4 .tryBtn:hover {
+        background-color: #b3e546;
+    }
+    div.p_cathaynamecard_section4 .tryWord {
+        color: white;
+    }
+div.p_cathayvote {
+    background-color: #67b7f8;
+    color:white;
+}
+    div.p_cathayvote_section1 {
+        //background: url("../images/p_cathayvote_s1.jpg") center top no-repeat;
+        height: 800px;
+    }   
+    div.p_cathayvote_section2 {
+        background: url("../images/p_cathayvote_line.jpg") center top no-repeat;
+        margin-top: 80px;
+        padding-top: 100px;
+    }
+    div.p_cathayvote_section2 li {
+        position: relative;
+        width: 800px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    div.p_cathayvote_section2 h2{
+        text-align: left;
+        font-size: 24px;
+        margin-left: 20px;
+        line-height: 30px;
+        //font-weight: normal;
+        letter-spacing: 0.05em;
+    }
+    div.p_cathayvote_section2 .bigHead {
+        font-family: "Helvetica Neue";
+        font-size: 115px;
+        line-height: 125px;
+        letter-spacing: 8px;
+        font-weight: bold;
+        color: white;
+        padding-bottom: 10px;
+        width:500px;
+        text-align: left;
+        margin-left: 300px;
+        
+        text-shadow: 1px 1px 10px rgba(64, 63, 51, 0.3);
+    }
+    div.p_cathayvote_section2 .smallHead {
+        float: right;
+        font-family: "Helvetica Neue";
+        margin-top: -60px;
+        text-align: right;
+        font-size: 30px;
+    }
+    div.p_cathayvote_section3 {
+        margin: 210px 0 0 0;
+        padding-bottom: 210px; 
+    }
+    div.p_cathayvote_section3 .tryBtn {
+        background-color: #ededed;
+        cursor: auto;
+    }
+    div.p_cathayvote_section3 .tryWord {
+        color: #a1a1a1;
+    }
+div.p_shidongyang {
+    background-color: #a5090c;
+}
+    div.p_shidongyang_section1 {
+        height: 1653px;
+        background: url("../images/p_shidongyang_s1.jpg") center top no-repeat;
+    }
+    div.p_shidongyang_section2 {
+        margin: 110px 0;
+    }
+    div.p_shidongyang_section2 .tryBtn {
+        background-color: #970a0c;
+    }
+    div.p_shidongyang_section2 .tryWord {
+        color: #e6caca;
+    }
+div.p_parachutetheband {
+    background-color: #1a1a1a;
+    //position:relative;
+}
+    div.p_parachutetheband_section1 .row {
+        position:relative;
+        width:100%;
+        //text-align: center;
+    }
+    div.p_parachutetheband_section1 .title{
+        position:absolute;
+        top: 165px;
+        //margin: 0 auto;
+        //height: 693px;
+        //background: url("../images/p_parachutetheband_s1.jpg") center top no-repeat;
+    }
+    div.p_parachutetheband_section2 p {
+        padding: 0 50px;
+        margin: 100px 0;
+        line-height: 20px;
+        color: #d5d5d5;
+        font-size: 16px;
+    }
+    .parachuteLogo {
+        display: block;
+        background: url("../images/parachuteLogo.png") top center no-repeat;
+        width: 192px;
+        height: 21px;
+    }
+    div.p_parachutetheband_section3 .albumCover{
+        box-shadow: 1px 1px 18px rgba( 0, 0, 0, 0.74);
+        margin-left: 30px;
+    }
+    div.p_parachutetheband_section3 p {
+        color: #d5d5d5;
+        margin: 30px;
+    }
+    div.p_parachutetheband_section4 h2 {
+        color: #484848;
+    }
+    div.p_parachutetheband_section4 .row {
+        margin-top:90px;
+        margin-bottom: 190px;
+        overflow: hidden;
+    }
+    div.p_parachutetheband_section4 .row a {
+        display:block;
+        float:left;
+        margin-left: 60px;
+        margin-top: 90px;
+    }
+    div.p_parachutetheband_section4 .facebook_a {
+        width: 218px;
+        height: 56px;
+        background: url("../images/facebook_link_2.png") top left no-repeat;
+        background-position: 0px 6px; 
+    }
+    div.p_parachutetheband_section4 .indievox_a {
+        width: 236px;
+        height: 70px;
+        background: url("../images/indievox_link.png") top left no-repeat;
+        background-position: 0px 6px; 
+    }
+    div.p_parachutetheband_section4 .streetvoice_a {
+        width: 237px;
+        height: 67px;
+        background: url("../images/streetVoice_link.png") top left no-repeat;
+    }
+div.p_hijack {
+    background-color: #1a1a1a;
+}
+    div.p_hijack_section1 .row {
+        position:relative;
+        width: 100%;
+        //text-align: center;
+    }
+    div.p_hijack_section1 {
+        text-align: center;
+    }
+    div.p_hijack_section1 .title{
+        position:absolute;
+        top: 195px;
+        //margin: 0 auto;
+    }
+    div.p_hijack_section2 p{
+        color: #d5d5d5;
+        margin: 80px 0 50px 100px;
+    }
+    div.p_hijack_section3 .row {
+        margin: 30px 0;
+    }
+    div.p_hijack_section3 .albumCover{
+        box-shadow: 1px 1px 18px rgba( 0, 0, 0, 0.74);
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    div.p_hijack_section3 p {
+        color: #d5d5d5;
+        margin: 30px;
+    }
+    div.p_hijack_section4 h2 {
+        color: #484848;
+    }
+    div.p_hijack_section4 .row {
+        margin-top:90px;
+        margin-bottom: 190px;
+        overflow: hidden;
+    }
+    div.p_hijack_section4 .row a {
+        display:block;
+        float:left;
+        margin-left: 60px;
+        margin-top: 90px;
+    }
+    div.p_hijack_section4 .facebook_a {
+        width: 218px;
+        height: 56px;
+        background: url("../images/facebook_link_2.png") top left no-repeat;
+        background-position: 0px 6px; 
+    }
+    div.p_hijack_section4 .indievox_a {
+        width: 236px;
+        height: 70px;
+        background: url("../images/indievox_link.png") top left no-repeat;
+        background-position: 0px 6px; 
+    }
+    div.p_hijack_section4 .streetvoice_a {
+        width: 237px;
+        height: 67px;
+        background: url("../images/streetVoice_link.png") top left no-repeat;
+    }
+div.p_webworks {
+    background: url("../images/p_cathaynamecard_bg.jpg") top left repeat;
+}
+div.p_webworks_section1 {
+    position: relative;
+    text-align: center;
+    height: 150px;
+}
+div.p_webworks_section1 .row {
+    margin-top:90px;
+}
+div.p_webworks_section2 {
+    background: url("../images/p_webworks_offlineWeb_3.png") top center no-repeat;
+    background-position:51% 75px;
+}
+div.p_webworks_section2 .row {
+    background: url("../images/p_webworks_offlineWeb_line.png") center top no-repeat;
+    padding-top:75px;
+}
+    div.p_webworks #slideBox {
+        position: relative;
+        //margin-top: 30px;
+        width: 960px;
+        height: 720px;
+        margin-bottom:50px;
+        color: #4d4d4d;
+    }
+        div.p_webworks #slideBox #slide_pic {
+            width: 720px;
+            height: 450px;
+            position: absolute;
+            overflow: hidden;
+            top: 32px;
+            left: 103px;
+        }
+        div#slide_pic_section {
+            width: 1440px;
+            height: 450px;
+        }
+        div.slide_onStage, div.slide_ready {
+            float:left;
+        }
+        div#slide_title {
+            position: absolute;
+            text-align: right;
+            top: 600px;
+            width:350px;
+        }
+        div#slide_title p {
+            font-size:20px;
+            font-weight: bold;
+        }
+        div#slide_explain {
+            position: absolute;
+            text-align: left;
+            top: 600px;
+            left: 380px;
+            width: 500px;
+        }
+        div#slide_explain p {
+            font-size:16px;
+        }
+        
+div.p9 {
+    background: url("../images/p_cathaynamecard_bg.jpg") top left repeat;
+}        
+div.p_aboutme {
+    background: url("../images/p_aboutme_bg.jpg") top left repeat;
+}
+    div.p_aboutme_section2 .row {
+        color: #686868;
+        margin-top:90px;
+    }
+    div.p_aboutme_section2 h2 {
+        font-size:24px;
+    }
+    div.p_aboutme_section2 .title {
+        position: absolute;
+        text-align: right;
+        width:190px;
+        font-size: 24px;
+    }
+    div.p_aboutme_section2 .word {
+        position: relative;
+        text-align: left;
+        left: 250px;
+        width:650px;
+        font-size: 18px;
+        line-height: 1.3em;
+        margin-bottom: 0.3em;
+    }
+    div.p_aboutme_section3 .row {
+        color: #9c9fa0;
+        margin-top:90px;
+        margin-bottom: 190px;
+        overflow: hidden;
+    }
+    div.p_aboutme_section3 .row a {
+        display:block;
+        float:left;
+        margin-left: 90px;
+        margin-top: 90px;
+    }
+    div.p_aboutme_section3 .facebook_a {
+        width: 208px;
+        height: 56px;
+        background: url("../images/facebook_link.png") top left no-repeat;
+        background-position: 0px 6px; 
+    }
+    div.p_aboutme_section3 .google_a {
+        width: 172px;
+        height: 70px;
+        background: url("../images/google_link.png") top left no-repeat;
+        background-position: 0px 6px; 
+    }
+    div.p_aboutme_section3 .linkedin_a {
+        width: 206px;
+        height: 55px;
+        background: url("../images/linkedin_link.png") top left no-repeat;
+    }
+.block {
+    //width:100%;
+}
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 920px;
+    height: 100%;
+}
+/****Buttons Style*****/
+div#controlBtns{
+    position: absolute;
+    width:100%;
+    top:100px;
+    //height: 100px;
+    z-index:5;
+}
+div#left, div#right {
+    width: 95px;
+    height:95px;
+    cursor:pointer;
+    //display:none;
+    //background-color:red;
+}
+div#left {
+    float:left;
+    margin-left: 1%;
+    background:url("../images/btns.png") top left no-repeat;
+}
+div#left:hover {
+    background-position:0 -95px;
+}
+div#right {
+    float:right;
+    margin-right: 1%;
+    background:url("../images/btns.png") top left no-repeat;
+    background-position:-95px 0;
+}
+div#right:hover {
+    background-position:-95px -95px;
+}
+div#tip {
+    position: fixed;
+    bottom: 10px;
+    display:none;
+}
+div#tip #tipMain{
+    background-color: #4e4e4e;
+    padding:5px 10px 4px 10px;
+    color: #cccaca;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+div#tip #tipMain p {
+    font-family: "alternate-gothic-no-2-d", sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+}
+div#tip #tipArrow {
+    background: url("../images/tipArrow.png") no-repeat;
+    background-position: 50px -1px;
+    height:9px;
+}
+/****footer Style*****/
+div#navBar {
+    //height:5px;
+    width:100%;
+    position:fixed;
+    bottom:30px;
+    bottom:0px;
+    //background-color: #4e4e4e;
+    z-index: 1000;
+    //padding: 0 5px 0 5px;
+    box-sizing: border-box;
+}
+div#navBar div#menu {
+    height: 24px;
+    //background-color: rgba(0,0,0,0.2);
+    background-color: #343434;
+}
+div#navBar div#navCursor {
+    height:5px;
+    background-color: #d5d5d5;
+}
+div#footer {
+    width:100%;
+    height:30px;
+    position:fixed;
+    bottom:0;
+    background-color: black;
+    padding: 0 5px 0 5px;
+    z-index: 1000;
+    box-sizing: border-box;
+    display: none;
+}
+div#footer li.socialIcon a {
+    float: right;
+    display: block;
+    width: 30px;
+    height:30px;
+    overflow: hidden;
+    text-indent: 100%;
+    background: url("../images/socialicon.png") no-repeat top left;
+}
+div#footer li.facebook a {
+    margin-right: 1px;
+    background-position: 0 1px;
+}
+div#footer li.goolePlus a {
+    background-position: -30px 1px;
+}
+div#footer li.flickr a {
+    background-position: -60px 1px;
+}
+div#footer li.linkedin a {
+    background-position: -90px 1px;
+}
+div#footer li.facebook a:hover {
+    background-position: 0 -31px;
+}
+div#footer li.goolePlus a:hover {
+    background-position: -30px -31px;
+}
+div#footer li.flickr a:hover {
+    background-position: -60px -31px;
+}
+div#footer li.linkedin a:hover {
+    background-position: -90px -31px;
+}
+
+/****ForCoding Style*****/
+div.forCoding {
+    position:absolute;
+    z-index: 100;
+}
+#code1 {
+    top:10px;
+    left:10px;
+}
+#code2 {
+    top:20px;
+    left:10px;
+}
+#code3 {
+    top:30px;
+    left:10px;
+}

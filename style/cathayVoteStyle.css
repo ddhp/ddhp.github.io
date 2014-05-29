@@ -1,0 +1,475 @@
+
+.cathayVote {
+	background-color:#c3e9fc;
+	background:url(../images/cathayVote/bgnogift.jpg) no-repeat;
+	width:760px;
+	height:800px;
+	margin:0 auto;
+	position:relative;
+        color:black;
+}
+
+.cathayVote h3, .cathayVote p {
+    text-align: left;
+}
+/********* WORKSECTION PAGE CSS **************/
+div#nowTitle p{
+	width:160px;
+	height:26px;
+	//background:url(../images/cathayVote/bonus.png) top left no-repeat;
+	position:absolute;
+	top:336px;
+	left:545px;
+	text-align:center;
+}
+div#goIndex {
+	position:absolute;
+	width:260px;
+	height:260px;
+	//background-color:white;
+	top:30px;
+	left:260px;
+	cursor:pointer;
+}
+div#getBonus {
+	position:absolute;
+	width:132px;
+	height:40px;
+	//background-color:white;
+	top:278px;
+	left:51px;
+	cursor:pointer;
+}
+div#rule {
+	position:absolute;
+	width:132px;
+	height:40px;
+	//background-color:white;
+	top:222px;
+	left:61px;
+	cursor:pointer;
+}
+div#workPreviewBG {
+	position:absolute;
+	z-index:1000;
+	width:520px;
+	height:330px;
+	top:25px;
+	left:125px;
+	//background:#2061ba;
+	background-color: rgb(0, 0, 0); 
+	background-color: rgba(0, 0, 0, 0.8); 
+	
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	-webkit-box-shadow:0 3px 9px rgba(0, 0, 0, .6);
+	
+	display:none;
+}
+div#workPreview {
+	position:absolute;
+	top:10px;
+	left:10px;
+	width:500px;
+	height:310px;
+	
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	overflow:hidden;
+}
+div#workSection {
+	position:relative;
+	top:340px;
+	left:20px;
+	width:730px;
+	height:440px;
+	overflow:hidden;
+}
+div#votePageBG {
+	position:absolute;
+	width:725px;
+	height:443px;	
+	top:340px;
+	left:20px;
+	background: top left no-repeat;
+	background-image:url(../images/cathayVote/BGs.png);
+	//background-position:5px 8px;
+	//background-position:16px 10px;
+	//background-position:80px 7px; /*FOR BONUSPAGE*/
+}
+div#p1_vote {
+	position:absolute;
+	width:705px;
+	height:375px;	
+	display:block;
+}
+div#workExplain {
+	position:absolute;
+	padding-top:45px;
+	width:725px;
+	height:453px;	
+	//display:block;
+	left:750px;
+}
+div#infoFill {
+	position:absolute;
+	width:705px;
+	height:375px;
+	left:750px;	
+}
+div#bonusPage {
+	position:absolute;
+	width:705px;
+	height:375px;
+	left:750px;	
+}
+div#campaignExplain {
+	position:absolute;
+	width:660px;
+	height:375px;
+	overflow:scroll;
+	overflow-x:hidden;
+	font-size:12px;
+	line-height:16px;
+	padding:0 30px;
+	left:750px;	
+	top:40px;
+}
+div#onHover {
+	position:absolute;
+	width:126px;
+	height:126px;
+	background:url(../images/cathayVote/hoverOnBG.png) top left no-repeat;
+	display:none
+}
+.close{
+	position:absolute;
+	border:none;
+	background-color:transparent;
+	cursor:pointer;
+}
+
+/********* P1 PAGE CSS **************/
+div.worksforFloat {
+	position:absolute;
+	opacity:0;
+}
+img.works {
+	position:relative;
+	-webkit-border-radius:3px;
+	//display:block;
+	
+	margin:0;
+}
+div.worksThumb {
+	position:absolute;
+	background-color:rgba(0, 0, 0, .3);
+	padding:1px;
+	
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	
+	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, .07);
+	-moz-box-shadow:0 1px 1px rgba(0, 0, 0, .07);
+}
+div.worksThumb div.workHover {
+	background:url(../images/cathayVote/hoverOnBG.png) top left no-repeat;
+	position:absolute;
+	top:4px;
+	left:4px;
+	width:126px;
+	height:126px;
+	//font-size:14px;
+	//color:#fff;
+}
+div.worksThumb div.workHover p {
+	position:relative;
+	margin-top:105px;
+	padding-left:10px;
+	color:white;
+}
+div.worksContainer {
+	position:relative;
+	width:125px;
+	height:125px;
+	border:4px solid white;
+	
+	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .07);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .07);
+	
+	overflow:hidden;
+}
+div.worksTitle{
+	margin-top:147px;
+	margin-left:10px;
+	color:#3c2f24;
+	font-size:14px;	
+}
+div.worksTitle p.workerName {
+	font-size:12px;	
+}
+div.worksTitle p{
+	padding-bottom:10px;
+}
+div.worksTitle p.nowVoteNum {
+	font-size:12px;	
+	display:none;
+}
+div.worksTitle span{
+	color:#2061ba;
+}
+
+
+/********* WORKEXPLAIN PAGE CSS **************/
+input.vote, input.suggest {
+	cursor:pointer;
+	border:none;
+	background-color:transparent;
+	width:118px;
+	height:115px;
+}	
+input.vote {
+	background:url(../images/cathayVote/btns.png) top left no-repeat;
+}
+input.suggest {
+	background:url(../images/cathayVote/btns.png) top left no-repeat;
+	background-position:-118px 0 ;
+}
+div#workExplain p {
+	font-size:14px;	
+	padding-top:3px;
+	padding-left:280px;
+	line-height:32px;
+	color:#3c2f24;
+}
+div#workExplain span {
+	color:#2061ba;
+}
+div#workExplain .workCol4 {
+	line-height:22px;
+	width:410px;
+	height:95px;
+	overflow-y:auto;
+	margin-top:10px;
+}
+div#workExplain .close {
+	top:52px;
+	left:577px;
+	width:100px;
+	height:51px;
+	background:url(../images/cathayVote/btns.png) top left no-repeat;
+	background-position:-708px 0;
+}
+div#workExplain .voteColoum {
+	position:absolute;
+	top:290px;
+	left:310px;
+}
+div#workExplain .suggest{
+	margin-left:6px;
+}
+div#workExplain div.checkPostSec {
+	width:130px;
+	background-color:white;
+	margin-top:160px;
+	margin-left:310px;
+	padding:2px 5px 2px 3px;
+}
+div.checkPostSec input {
+	margin-left:5px;
+	margin-right:5px;
+}
+div#workExplain label {
+	letter-spacing:1px;
+}
+
+
+/********* INFOFILL PAGE CSS **************/
+div#infoFill {
+	color:white;
+	padding-left:285px;
+	padding-top:52px;
+}
+div#infoFill h3 {
+	letter-spacing:3px;
+	line-height:24px;
+}
+div#infoFill p {
+	font-size:10px;
+}
+div#infoFill form {
+	margin-top:32px;
+	//width:500px;
+}
+div#infoFill label {
+	font-size:13px;
+	width:55px;
+	text-align:right;
+	float:left;
+	margin-left:-15px;
+}
+div#infoFill input {
+	font-size:13px;
+	width:200px;
+	border:none;
+	background:transparent;
+	color:#3c2f24;
+	line-height:14px;	
+	margin-bottom:23px;
+}
+div#infoFill input#name {
+	width:120px;	
+	margin-left:15px;
+	padding-left:3px;
+	margin-top:-2px;
+}
+div#infoFill input#teleNumber, div#infoFill input#eMail{
+	width:160px;	
+	margin-left:15px;
+	padding-left:3px;
+	margin-top:-2px;
+}
+div#infoFill input#addressNum {
+	width:50px;	
+	margin-left:15px;
+	padding-left:3px;
+	margin-top:-2px;
+}
+div#infoFill input#address {
+	width:270px;	
+	margin-left:15px;
+	padding-left:3px;
+	margin-top:-2px;
+}
+div#infoFill .voteColoum {
+	position:absolute;
+	top:293px;
+	left:310px;
+}
+div#infoFill .close{
+	top:52px;
+	left:577px;
+	width:100px;
+	height:51px;
+	background:url(../images/cathayVote/btns.png) top left no-repeat;
+	background-position:-708px 0;
+}
+div#infoFill input.infoSend, div#infoFill input.suggest {
+	cursor:pointer;
+	border:none;
+	background-color:transparent;
+	width:118px;
+	height:115px;
+}	
+div#infoFill input.infoSend {
+	background:url(../images/cathayVote/btns.png) top left no-repeat;
+	background-position:-236px 0 ;
+}
+div#infoFill input.suggest {
+	background:url(../images/cathayVote/btns.png) top left no-repeat;
+	background-position:-118px 0 ;
+}
+div#infoFill input.suggest{
+	margin-left:6px;
+}
+
+/********* GETBONUS PAGE CSS **************/
+
+div#bonusPage {
+	color:white;
+	padding-left:120px;
+	padding-top:62px;
+}
+div#bonusPage h3 {
+	letter-spacing:2px;
+	padding-bottom:6px;
+}
+div#bonusPage h3 span {
+	font-size:12px;
+	letter-spacing:0px;
+}
+div#bonusPage p {
+	font-size:10px;
+}
+div#bonusPage form {
+	margin-top:82px;
+	//width:500px;
+}
+div#bonusPage label {
+	font-size:13px;
+	width:120px;
+	text-align:right;
+	float:left;
+	margin-left:10px;
+}
+div#bonusPage input {
+	font-size:13px;
+	width:200px;
+	border:none;
+	background:transparent;
+	color:#3c2f24;
+	line-height:14px;	
+	margin-bottom:23px;
+}
+div#bonusPage input#passportNum {
+	margin-left:20px;
+}
+div#bonusPage .voteColoum {
+	position:absolute;
+	top:290px;
+	left:305px;
+}
+div#bonusPage .close{
+	top:50px;
+	left:574px;
+	width:100px;
+	height:51px;
+	background:url(../images/cathayVote/btns.png) top left no-repeat;
+	background-position:-708px 0;
+}
+div#bonusPage input.joinBonus, div#bonusPage input.signup {
+	cursor:pointer;
+	border:none;
+	background-color:transparent;
+	width:118px;
+	height:115px;
+}	
+div#bonusPage input.joinBonus {
+	background:url(../images/cathayVote/btns.png) top left no-repeat;
+	background-position:-354px 0 ;
+}
+div#bonusPage input.signup {
+	background:url(../images/cathayVote/btns.png) top left no-repeat;
+	background-position:-472px 0 ;
+}
+div#bonusPage input.signup {
+	margin-left:6px;
+}
+
+/********* CAMPAIGNEXPLAIN PAGE CSS **************/
+div#campaignExplain h3{
+	font-size:16px;
+	text-align:center;
+	padding-bottom:12px;
+}
+div#campaignExplain p {
+	padding-bottom:20px;
+}
+div#campaignExplain table {
+	border:1px solid black;	
+}
+div#campaignExplain table th {
+	border:1px solid black;	
+	padding:5px 0;
+}
+div#campaignExplain table td {
+	border:1px solid black;	
+	padding:3px 5px;
+}
